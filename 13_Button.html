@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="http://www.google.com" target="_blank">
+      <button
+        style="background-color: #333333; color: #00ff00; border-radius: 5%"
+      >
+        Click Me to go to Google
+      </button>
+    </a>
+    <hr />
+    <button onclick="doSmothing()" style="background-color: red; color: yellow; border-radius: 10px">
+      Click Here
+    </button>
+<p id="test">Welcome</p>
+
+<script>
+    function doSmothing(){
+
+        document.getElementById("test").innerHTML = "GoodBye"
+    }
+</script>
+
+  </body>
+</html>
